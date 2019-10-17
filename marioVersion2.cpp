@@ -1,3 +1,5 @@
+/* This code is very similar to the first version of Mario. But with another parallel stairs. */
+
 #include <iostream>
 
 using namespace std;
