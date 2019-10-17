@@ -15,8 +15,6 @@ int main(){
 	
 	do{
 		
-		
-		
 		//input
 		cin >> s >> p;
 		
@@ -30,8 +28,8 @@ int main(){
 		cout << endl;
 		
 	} while(health >0);
-	
-	
+
+	return 0;
 }
 
 void regenerate(char s, int p){
@@ -40,23 +38,20 @@ void regenerate(char s, int p){
 	if(s == '+'){
 		health +=p;
 	} 
-	
 	//if negative
 	else if (s == '-'){
 		health -=p;
 	}
-	
 	//if heatlh >100
 	if(health>100){
 		health = 100;
 	}
-	
 }
 
 void display(){
 	
 		int bar=health/10;
-		
+	
 		cout << "HealthBar" << endl;
 		//healthbar
 		cout << "[";
