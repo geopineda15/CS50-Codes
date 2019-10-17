@@ -1,3 +1,6 @@
+/* The task of this program is to check wether the inpputed credit card number, is a valid card and prints out
+what type of credit card it is. */
+
 #include <iostream>
 #include <cmath>
 
