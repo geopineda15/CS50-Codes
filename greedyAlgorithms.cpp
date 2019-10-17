@@ -1,3 +1,5 @@
+/* The Task of this program is to compute the most least number of coins you can return to the payer with cents */
+
 #include <iostream>
 #include <math.h>
 
