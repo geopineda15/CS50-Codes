@@ -1,3 +1,5 @@
+/* task is to create a stairs depending on the number of N input that will decide the height */
+
 #include <iostream>
 
 using namespace std;
