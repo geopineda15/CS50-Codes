@@ -1,3 +1,13 @@
+/*
+
+CAESAR ENCRYPTION EXAMPLE
+
+plaintext	H	E	L	L	O
++ key	1	1	1	1	1
+= ciphertext	I	F	M	M	P 
+
+*/
+
 #include <iostream>
 #include <string.h>
 
